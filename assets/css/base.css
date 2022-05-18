@@ -1,0 +1,100 @@
+@import url("nav.css");
+@import url("first_section.css");
+
+:root {
+    --main_color: #009688;
+    --main_font: "Roboto", sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+
+@media only screen and (max-width: 950px) {
+
+           
+    .top_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar {
+        left: -500px;
+        transition: all 1s;
+
+
+    }
+
+    .link_tag {
+        padding: 26px 0;
+    }
+
+    .show {
+        left: 0px;
+        transition: all 1s;
+    }
+
+    .tag_element {
+        font-size: 20px;
+    }
+
+
+
+
+    .profile_image {
+        display: none;
+    }
+
+    .first_section {
+        position: absolute;
+        left: 5rem;
+
+    }
+
+    .container{
+        min-height: 600px;
+    }
+
+    .link_btn>button{
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .link_btn>button:nth-child(n+2){
+    margin-left: 15px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 572px) {
+    .name{
+        font-size: 20px;
+    }
+    .introduction p{
+        font-size: 1.5rem;
+    }
+    .brief_info p{
+        width: 100%;
+        font-size: 10;
+        padding-right: 10px;
+    }
+
+    .teal_background{
+        padding: 0 10px;
+    }
+}
