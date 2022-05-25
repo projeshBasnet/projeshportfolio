@@ -1,0 +1,78 @@
+.about{
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.my_info_wrapper{
+    padding-left: 50px;
+}
+
+
+.top_heading h2{
+    margin: 0;
+    background-color: var(--title_color);
+    padding-left: 15rem;
+    line-height: 6rem;
+    font-weight: 200;
+    color: var(--text_color_white);
+    text-transform: uppercase;
+
+}
+
+
+.my_info_wrapper{
+    position: relative;
+    left: 13rem;
+}
+
+.about_me{
+    margin-top: 60px;
+    width: 70%;
+    text-align: justify;
+    font-family: var(--main_font);
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.area_of_intrest{
+    margin-top: 20px;
+}
+
+.intrest_title{
+    font-size: 1.5rem;
+}
+
+.each_area_intrest{
+    width: 70%;
+}
+
+.intrest_element{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 300;
+    width: 8rem;
+
+}
+
+.seeking_for{
+    width: 70%;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 950px) {
+
+.top_heading h2{
+    padding: 0;
+    text-align: center;
+}
+
+}
+
+

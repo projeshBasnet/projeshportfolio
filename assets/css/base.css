@@ -1,9 +1,18 @@
 @import url("nav.css");
 @import url("first_section.css");
+@import url("about.css");
+@import url("experience.css");
+
 
 :root {
     --main_color: #009688;
     --main_font: "Roboto", sans-serif;
+    --title_color:#008073;
+    --text_color_white:#FFFFFF;
+}
+
+body{
+    background-color: #f4f4f4;
 }
 
 
@@ -15,9 +24,11 @@
 
 }
 
-li {
+/* li {
     list-style: none;
-}
+} */
+
+
 
 
 
@@ -76,6 +87,17 @@ li {
     margin-left: 15px;
 }
 
+.shift_right{
+    left: 0px;
+}
+
+.about_me{
+    width: 90%;
+}
+
+.each_area_intrest{
+    width: 90%;
+}
 
 
 

@@ -1,9 +1,14 @@
+.hero{
+    width: fit-content;
+}
+
 .container {
     background-color: #5e9f98;
     height: 500px;
     width: 100%;
     margin: auto;
     position: relative;
+    max-width: 100%;
 }
 
 .first_section {
