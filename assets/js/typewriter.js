@@ -1,6 +1,6 @@
 const Typewriter = function (txtElement, words, wait = 1000) {
-    console.log("this", this)
-    console.log(words)
+    // console.log("this", this)
+    // console.log(words)
     this.txtElement = txtElement;
     this.words = words;
     this.txt = '';
@@ -44,7 +44,7 @@ Typewriter.prototype.type = function () {
         typespeed = 1000
     }
 
-    console.log("typespeed", typespeed)
+    // console.log("typespeed", typespeed)
     setTimeout(() => this.type(), typespeed)
 }
 
@@ -55,7 +55,7 @@ function init() {
     const txtElement = document.getElementById("typewriter");
     const words = JSON.parse(txtElement.getAttribute('data-words'));
     const wait = parseInt(txtElement.getAttribute('data-wait'));
-    console.log("wait", wait)
+    // console.log("wait", wait)
 
 
     // init typewriter
