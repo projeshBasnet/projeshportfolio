@@ -43,6 +43,8 @@
 .who_am_i > p {
     color: white;
     text-transform: capitalize;
+    font-size: 2rem;
+
 }
 
 .brief_info p {
@@ -51,9 +53,16 @@
     color: white;
 }
 
+.txt{
+    color: #008073;
+
+
+}
+
 .txt::after{
     content: '';
     border-right: 0.5px solid;
+
 }
 
 

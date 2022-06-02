@@ -44,7 +44,6 @@ Typewriter.prototype.type = function () {
         typespeed = 1000
     }
 
-    console.log("typespeed", typespeed)
     setTimeout(() => this.type(), typespeed)
 }
 
