@@ -43,6 +43,11 @@
 .who_am_i > p {
     color: white;
     text-transform: capitalize;
+    font-size: 1.8rem;
+}
+
+.txt{
+    color: var(--title_color);
 }
 
 .brief_info p {
