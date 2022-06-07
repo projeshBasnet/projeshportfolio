@@ -53,38 +53,25 @@
     cursor: pointer;
 }
 
+.card_second, .project_card_first{
+    backface-visibility: hidden;
+
+}
+
 .card_second{
     width: 100%;
     position: absolute;
-    top: 100%;
-    height: 0;
+    top: 0;
+    transform: rotateY(180deg);
+        /* height: ; */
     overflow-y: auto;
     z-index: 1;
-    transform: translateY(0);
-    /* visibility: hidden; */
-    /* margin-top: 1000px;
-    top: 0; */
-    /* bottom: -55rem; */
-    /* background-color: #f4f4f4; */
-
+   
 }
 
-.show_card{
-    transform: translateY(-100%);
-    visibility: visible;
-    height: 100%;
-    overflow-y: auto;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    /* transition: all 0.3s; */
 
-}
 
-.hide_card{
-    visibility: hidden;
-    transition: all 0.3s;
 
-}
 
 
 .card_second_infos ul{
@@ -127,6 +114,30 @@
 .restore_item{
     margin-top: initial;
 }
+
+/* css to flip card */
+
+
+.project_card{
+    perspective: 400px;
+
+
+}
+
+.project_card_inner{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+}
+
+
+
+
+.project_card:hover .project_card_inner{
+    transform: rotateY(180deg);
+}
+
+
 
 
 @media only screen and (max-width: 950px) {
